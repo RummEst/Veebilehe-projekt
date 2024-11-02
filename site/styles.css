@@ -1,0 +1,186 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    height: 100vh;
+    color: #333;
+    background-color: #FFFFFF;
+}
+
+/* Side Menu */
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F2F2F2;
+    padding: 20px;
+    width: 60px;
+    text-align: center;
+}
+
+.menu-icon {
+    font-size: 24px;
+    padding: 15px 0;
+    color: #888;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu-icon:hover {
+    color: #B3C7E6;
+}
+
+/* Main content styling */
+main {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Default Card Layout for index.html */
+.sections {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 220px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card h2 {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #777;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Banner styling */
+.banner {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: #F9D8C7;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.banner .quote {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.banner .meme {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+    animation: fadeIn 2s;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Dynamic Card Layout for /meditation.html and /learning.html */
+.dynamic-layout .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.dynamic-layout .card {
+    cursor: pointer;
+    width: auto; /* Dynamic width */
+    height: auto; /* Dynamic height */
+}
+
+.dynamic-layout .card.wide {
+    grid-column: span 2;
+}
+
+.dynamic-layout .card.tall {
+    grid-row: span 2;
+}
+
+.dynamic-layout .card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    color: #888;
+    font-size: 14px;
+    flex-direction: column;
+}
+
+footer a {
+    color: #B3C7E6;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* Media Queries for Dynamic Layout Cards */
+@media (max-width: 768px) {
+    /* Adjust card grid for smaller screens */
+    .dynamic-layout .card-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Reduce min size */
+        gap: 15px; /* Adjust gap if needed */
+    }
+
+    /* Card styling for dynamic layout */
+    .dynamic-layout .card {
+        padding: 15px; /* Slightly reduce padding for smaller screens */
+        width: auto; /* Keep width dynamic */
+        height: auto; /* Keep height dynamic */
+    }
+
+    .dynamic-layout .card h2 {
+        font-size: 18px; /* Smaller font size for titles */
+    }
+
+    .dynamic-layout .card p {
+        font-size: 12px; /* Smaller font size for paragraphs */
+    }
+
+    .dynamic-layout .card img {
+        width: 100%; /* Keep images responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
