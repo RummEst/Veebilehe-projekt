@@ -1,6 +1,8 @@
 # Motivation & Learning Site
 
 ![{BB4694A6-71D1-4444-B401-6A903B149D2E}](https://github.com/user-attachments/assets/67c2943f-b87d-4cf2-a84f-c5b515222839)
+> Tartu Ülikooli Informaatika veebilehe gruptitöö projekt, Kursus: `Sissejuhatus erialasse (LTAT.03.002)`
+
 
 ## Repositoorium:
 - [x] Loodud on avalik repositoorium, kuhu on lisatud kõik rühma liikmed
