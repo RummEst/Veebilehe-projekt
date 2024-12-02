@@ -8,47 +8,70 @@
 </head>
 <body>
 
-    <!-- Side Menu -->
+    <!-- Menüü -->
     <nav class="side-menu">
-        <a href="index.html" class="menu-icon" title="Home">🏠</a>
-        <a href="meditation.html" class="menu-icon active" title="Meditation">🧘</a>
-        <a href="learning.html" class="menu-icon" title="Learning Strategies">📘</a>
+        <a href="index.html" class="menu-icon" title="Kodu">🏠</a>
+        <a href="meditation.html" class="menu-icon active" title="Meditatsioon">🧘</a>
+        <a href="learning.html" class="menu-icon" title="Õpistrateegiad">📘</a>
     </nav>
 
-    <!-- Main Content Area -->
-    <main class="dynamic-layout">
-        <h1>Meditatsiooni tehnikad</h1>
-        
-        <!-- Card Grid Section -->
-        <section class="card-grid">
-            <!-- Dynamic Cards -->
-            <div class="card" onclick="return false;">
-                <img src="https://via.placeholder.com/200x150" alt="Placeholder Image">
-                <h2>Mindfulness Meditation</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <!-- Põhi -->
+  <main class="dynamic-layout">
+    <h1>Meditatsiooni tehnikad</h1>
+    
+    <!-- Kaardid -->
+    <section class="card-grid">
+        <!-- Dünaamilised kaardid -->
+        <div class="card" onclick="return false;">
+            <img src="https://static.independent.co.uk/2022/03/18/15/newFile-5.jpg" alt="Naine magab">
+            <h2>Lõõgastumise tehnika</h2>
+            <p>Lõdvestades keha, lõdveneb ka me mõistus, kes meid ärevaks ajab.</p>
+            <h3>Lahti laskimse tehnika </h3>
+            <p> <b>1. aste</b>  
+                <br> Lamades voodis, enne kui uni tuleb, hakka suletud silmadega vaatama energiat oma kehas. Alusta jalgadest. Liigu sinna – lihtsalt vaata seespoolt: on seal mingi pinge jalgades, reites, kõhus? On seal kuskil mingi pingulolek? 
+                <br> <b>2. aste</b> 
+                <br> Kui sa leiad kuskilt pinge, siis lihtsalt proovi see lõõgastada ning ära liigu sellest kohast ära enne, kui see on lõõgastunud. 
+                <br> <b>3. aste</b>
+                <br> Käi samamoodi läbi käed. Kui su parem käsi on pinges, siis on su vasak aju pool samuti pinges. Kui su vasak käsi on pinges, on su parem aju pool pinges.
+                <br> <b>4. aste</b>
+                <br> Kui kogu keha on lõõgastunud, on ka mõistus juba 90 protsenti lõõgastunud, sest keha on mõistuse pikendus. Seejärel on vaid alles 10 protsenti pingest, mis on su mõistuses… lihtsalt vaata seda. Üksnes vaatamise läbi pinge hajub.
+                <br> See võtab mõned päevad aega ja see tehnika hakkab sujuma.
+            </p>
+        </div>
+        <div class="card" onclick="return false;">
+            <img src="https://media.istockphoto.com/id/1332476742/photo/relaxed-african-american-woman-inhaling-with-eyes-closed-studio-shot.jpg?s=612x612&w=0&k=20&c=x9rX4t-PLio-MPWCYrogIeO-tbQAUpM2Pp2sDAKvP6I=" alt="Naine seisab">
+            <h2>Keskme tehnikad</h2>
+            <p>Kui on hea kontakt Haraga(punkt, mis asub 2,5 cm nabast allpool), siis see tähendab, et sa oled oma keskmes, ja kui sa oled oma keskmes, siis on sinus kindlus ja turvalisus, sa tead mida teed ja mida tahad, sa tunned end nn tervikuna.</p>
+            <h3>1. tehnika – Kesestuv seismine</h3>
+            <p>Seisa oma ruumi nurgas ja ära tee midagi.
+                Järsku seisab ka energia liikumatult sinu sees.
+                Istudes sa tunned palju mõistuse sekkumist, sest istumine on mõtlejate poos. Seistes aga energia voolab nagu sammas ja jaotub üle kogu keha. Sa märkad, et miski settib sinus, jääb vaikseks. Teatud kesestumine toimub, ja sa tunned end energia sambana – keha hajub.
+            </p>
+            <h4>2. tehnika – Harasse hingamine</h4>
+            <p>Igal ajahetkel päevas, mil sul see meelde tuleb, hinga Hara keskusse.</p>
+
+    </section>
+
+    <!--Videote valik-->
+    <section class="videod">
+        <h2>Videod mediteerimiseks</h2>
+        <div class="video">
+            <div class="video" onclick="openVideo('https://www.youtube.com/watch?v=inpok4MKVLM')">
+                <iframe src="https://www.youtube.com/watch?v=inpok4MKVLM" frameborder="0" allowfullscreen></iframe>
             </div>
-            <div class="card" onclick="return false;">
-                <img src="https://via.placeholder.com/300x200" alt="Placeholder Image">
-                <h2>Body Scan Meditation</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales.</p>
+            <div class="video" onclick="openVideo('https://www.youtube.com/watch?v=4TQsfBYCyKQ')">
+                <iframe src="https://www.youtube.com/watch?v=4TQsfBYCyKQ" frameborder="0" allowfullscreen></iframe>
             </div>
-            <div class="card wide" onclick="return false;">
-                <img src="https://via.placeholder.com/400x150" alt="Placeholder Image">
-                <h2>Guided Visualization</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean.</p>
+            <div class="video" onclick="openVideo('https://www.youtube.com/watch?v=CqnWMPuyT0g')">
+                <iframe src="https://www.youtube.com/watch?v=CqnWMPuyT0g" frameborder="0" allowfullscreen></iframe>
             </div>
-            <div class="card tall" onclick="return false;">
-                <img src="https://via.placeholder.com/200x300" alt="Placeholder Image">
-                <h2>Loving Kindness Meditation</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia.</p>
+            <div class="video" onclick="openVideo('https://www.youtube.com/watch?v=vtOAnC73xtk')">
+                <iframe src="https://www.youtube.com/watch?v=vtOAnC73xtk" frameborder="0" allowfullscreen></iframe>
             </div>
-            <div class="card" onclick="return false;">
-                <img src="https://via.placeholder.com/250x250" alt="Placeholder Image">
-                <h2>Zen Meditation</h2>
-                <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-        </section>
-    </main>
+        </div>
+    </section>
+
+</main>
 
 </body>
 </html>
