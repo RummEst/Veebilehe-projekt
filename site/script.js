@@ -27,3 +27,7 @@ function refreshMeme() {
 
 // Refresh the meme every time the page loads
 window.onload = refreshMeme;
+
+function openVideo(url) {
+    window.open(url, '_blank'); // Avab video uues aknas
+}

@@ -48,12 +48,15 @@ main {
     color: #252525;
 }
 
-
 .sections {
     display: flex;
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
+}
+
+.section h2 {
+    align-items: center;
 }
 
 .card {
@@ -93,6 +96,17 @@ main {
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.videod-koos {
+    display: flex;      
+    flex-wrap: wrap;   
+    gap: 5px;            
+}
+
+.video {
+    flex: 1;         
+    min-width: 300px;  
 }
 
 .banner {
