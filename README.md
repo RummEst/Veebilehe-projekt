@@ -6,7 +6,7 @@
 
 ## Repositoorium:
 - [x] Loodud on avalik repositoorium, kuhu on lisatud kõik rühma liikmed
-- [ ] Kõik rühma liikmed on teinud vähemalt ühe commiti
+- [x] Kõik rühma liikmed on teinud vähemalt ühe commiti
 - [x] Repositooriumil on vähemalt kaks haru ehk branchi. Võite nende harudena realiseerida kaks alternatiivset pealkirja või sisuteksti. Või kasvõi erinevat värvi taustad.
 
 ## Failid:
@@ -16,8 +16,8 @@
 
 ## Rühmatöö korraldus:
 - [x] Repositooriumile on loodud wiki, milles on vähemalt üks lause. (Wiki, mitte lihtsalt readme fail)
-- [ ] Kui rühmatöö tegemisel on probleeme, on nendest koos esitusega teada antud. Ükskõik, kas probleemid on tehnilised või inimestega seotud.
-- [ ] Vaadake üle rühmatöö plaanis otsustatud käitumisnormid ja tehke vajadusel parandusi. Kas need on jätkuvalt teile olulised asjad? Mida tuleks lisada või muuta?
+- [x] Kui rühmatöö tegemisel on probleeme, on nendest koos esitusega teada antud. Ükskõik, kas probleemid on tehnilised või inimestega seotud.
+- [x] Vaadake üle rühmatöö plaanis otsustatud käitumisnormid ja tehke vajadusel parandusi. Kas need on jätkuvalt teile olulised asjad? Mida tuleks lisada või muuta?
 
 
 
